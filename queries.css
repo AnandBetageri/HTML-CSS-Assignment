@@ -1,0 +1,97 @@
+@media (max-width: 1200px) {
+  .promo-text {
+    padding: 40px;
+  }
+  .promo-text h1 {
+    font-size: 36px;
+  }
+  .promo-text p {
+    font-size: 14px;
+  }
+  .grid-images {
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 180px 180px;
+    gap: 15px;
+  }
+  .text-box {
+    padding: 30px 40px;
+    min-width: 320px;
+  }
+}
+
+@media (max-width: 992px) {
+  body{
+    margin-top:20px;
+  }
+  .promo-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .promo-text, .promo-image {
+    width: 100%;
+    height: auto;
+  }
+  .promo-image img {
+    height: auto;
+    max-height: 400px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .grid-images {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .text-box {
+    width: 100%;
+    min-width: unset;
+    text-align: center;
+    padding: 20px;
+  }
+  .click-text {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body{
+    margin-top:20px;
+  }
+  nav .navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .promo-text h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+  .promo-text p {
+    font-size: 13px;
+  }
+  .promo-text button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  .grid-images {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .food-img {
+    grid-row: auto;
+    grid-column: auto;
+  }
+  .text-box {
+    font-size: 14px;
+    padding: 15px;
+  }
+  .big-text {
+    font-size: 1.5em;
+  }
+}
